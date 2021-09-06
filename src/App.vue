@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <offer-box />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OfferBox from './components/OfferBox.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    OfferBox
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-size: 16px;
   margin-top: 60px;
 }
 </style>
