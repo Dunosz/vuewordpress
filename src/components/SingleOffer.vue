@@ -51,9 +51,6 @@ export default {
   color: aliceblue;
   padding: 20px;
 }
-.title {
-
-}
 .price {
   font-size: 2em;
 }
